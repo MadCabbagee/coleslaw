@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ColeslawApplication {
+public class ColeslawAdminPanel {
 
     public static void main(String[] args) {
-        SpringApplication.run(ColeslawApplication.class, args);
+        SpringApplication.run(ColeslawAdminPanel.class, args);
     }
 
 }
