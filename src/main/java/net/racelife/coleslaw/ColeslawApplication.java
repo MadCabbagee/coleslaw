@@ -1,13 +1,13 @@
-package ovh.madcabbage.coleslaw;
+package net.racelife.coleslaw;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ColeslawwebappApplication {
+public class ColeslawApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ColeslawwebappApplication.class, args);
+        SpringApplication.run(ColeslawApplication.class, args);
     }
 
 }

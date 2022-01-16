@@ -8,14 +8,14 @@
         <version>2.6.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>ovh.madcabbage</groupId>
+    <groupId>net.racelife</groupId>
     <artifactId>coleslaw</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>coleslawwebapp</name>
-    <description>coleslawwebapp</description>
+    <name>coleslaw</name>
+    <description>coleslaw</description>
     <properties>
         <java.version>17</java.version>
-        <vaadin.version>14.8.1</vaadin.version>
+        <vaadin.version>22.0.2</vaadin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -89,6 +89,7 @@
                     <plugin>
                         <groupId>com.vaadin</groupId>
                         <artifactId>vaadin-maven-plugin</artifactId>
+                        <!--suppress MavenModelInspection -->
                         <version>${vaadin.version}</version>
                         <executions>
                             <execution>
